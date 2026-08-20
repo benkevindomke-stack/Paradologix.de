@@ -14,8 +14,34 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    slug: "erklaervideo-agentur",
+    slug: "videoproduktion",
     number: "01",
+    group: "Film & Motion Design",
+    label: "Videoproduktion",
+    title: "Bewegte Bilder.\nKlare Haltung.",
+    seoTitle: "Videoproduktion Berlin für Marken mit Haltung",
+    description: "Videoproduktion für Marken, Produkte und Räume - von der ersten Idee bis zum finalen Film.",
+    intro: "Wir verbinden Strategie, Regie und Gestaltung zu Filmen, die nicht nur Aufmerksamkeit erzeugen, sondern eine Perspektive hinterlassen.",
+    keywords: ["Videoproduktion Berlin", "Filmproduktion", "Motion Design"],
+    deliverables: ["Konzept & Regie", "Produktion & Dreh", "Schnitt & Postproduktion", "Sounddesign & Ausspielung"],
+    color: "blue",
+  },
+  {
+    slug: "imagefilm-produktion",
+    number: "02",
+    group: "Film & Motion Design",
+    label: "Imagefilm",
+    title: "Eine Marke.\nEine Geschichte.",
+    seoTitle: "Imagefilm Produktion für Marken mit Geschichte",
+    description: "Imagefilme, die Unternehmen, Menschen und Marken in eine spürbare Erzählung übersetzen.",
+    intro: "Ein guter Imagefilm erklärt nicht nur, wer Sie sind. Er macht erfahrbar, warum Ihre Marke relevant ist.",
+    keywords: ["Imagefilm Produktion", "Unternehmensfilm", "Corporate Film"],
+    deliverables: ["Story & Dramaturgie", "Casting & Produktion", "Film & Fotografie", "Postproduktion & Formate"],
+    color: "amber",
+  },
+  {
+    slug: "erklaervideo-agentur",
+    number: "03",
     group: "Film & Motion Design",
     label: "Erklärvideo",
     title: "Komplexes wird\nspürbar klar.",
@@ -28,7 +54,7 @@ export const services: Service[] = [
   },
   {
     slug: "wandmalerei-wanddesign",
-    number: "02",
+    number: "04",
     group: "Wall Design",
     label: "Wandmalerei & Wanddesign",
     title: "Wände werden\nzu Welten.",
@@ -41,7 +67,7 @@ export const services: Service[] = [
   },
   {
     slug: "3d-visualisierung",
-    number: "03",
+    number: "05",
     group: "Film & Motion Design",
     label: "3D-Visualisierung",
     title: "Noch nicht da.\nSchon erlebbar.",
@@ -54,7 +80,7 @@ export const services: Service[] = [
   },
   {
     slug: "logo-design-agentur",
-    number: "04",
+    number: "06",
     group: "Identity Design",
     label: "Logo Design",
     title: "Eine Form.\nEine Haltung.",
@@ -67,7 +93,7 @@ export const services: Service[] = [
   },
   {
     slug: "digital-signage-content",
-    number: "05",
+    number: "07",
     group: "New Media Design",
     label: "Digital Signage",
     title: "Content, der\nRäume aktiviert.",
