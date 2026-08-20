@@ -22,7 +22,7 @@ export default function Home() {
 
       <section className="hero wrap" id="top">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> CREATIVE MEDIA STUDIO · DRESDEN / SACHSEN / EVERYWHERE</p>
+          <p className="eyebrow"><span /> CREATIVE MEDIA STUDIO</p>
           <h1>Make space<br />for the <em>impossible.</em></h1>
           <p className="lede">Wir entwickeln visuelle Welten zwischen Film, Raum, Wand und Identität — für Marken, Orte und Ideen mit Tiefgang.</p>
           <a className="round-link" href="#work"><b>Entdecke unsere<br />Perspektiven</b><span>↓</span></a>
@@ -30,7 +30,6 @@ export default function Home() {
         <div className="portal" aria-hidden="true">
           <div className="portal-glow" /><div className="portal-frame portal-frame-a" /><div className="portal-frame portal-frame-b" />
           <div className="portal-orb" /><div className="portal-label">ENTER<br />ANOTHER<br />DIMENSION</div>
-          <div className="coordinates">51° 03′ N&nbsp;&nbsp; 13° 44′ E</div>
         </div>
         <div className="hero-footer"><span>Scroll to explore</span><span className="line" /><span>01 — 04</span></div>
       </section>
@@ -64,7 +63,7 @@ export default function Home() {
         <a href="/kontakt" className="email">Projekt anfragen <span>↗</span></a>
       </section>
 
-      <footer className="footer wrap"><a className="wordmark" href="#top">PARADOLOGIX<span>®</span></a><p>© 2026 Paradologix</p><p>Dresden · Sachsen · Deutschland</p><a href="#top">Nach oben ↑</a></footer>
+      <footer className="footer wrap"><a className="wordmark" href="#top">PARADOLOGIX<span>®</span></a><p>© 2026 Paradologix</p><a href="/impressum">Impressum</a><a href="#top">Nach oben ↑</a></footer>
     </main>
   );
 }
