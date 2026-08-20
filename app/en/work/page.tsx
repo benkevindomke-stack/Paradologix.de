@@ -1,0 +1,6 @@
+import type { Metadata } from "next";
+import { projects } from "@/lib/projects";
+import "../../projekte/projects.css";
+
+export const metadata: Metadata = { title: "Work | Paradologix", description: "Concept studies across film, space, wall design and identity." };
+export default function EnglishWork() { return <main className="projects-page"><nav className="projects-nav projects-wrap"><a href="/en" className="projects-logo">PARADOLOGIX<sup>®</sup></a><a href="/en/studio">Studio</a><a href="/en/contact">Start a project ↗</a></nav><header className="projects-header projects-wrap"><p><span /> SELECTED WORK / CONCEPT STUDIES</p><h1>Other worlds,<br /><em>on purpose.</em></h1><small>The following work is presented as concept studies and shows the creative direction of Paradologix.</small></header><section className="projects-grid projects-wrap">{projects.map((project) => <a href={`/projekte/${project.slug}`} className={`project-card ${project.tone}`} key={project.number}><div className="project-visual"><i /><i /><b /></div><div className="project-copy"><p>{project.number} / {project.category.toUpperCase()}</p><h2>{project.title}</h2><span>{project.subtitle}</span><strong>↗</strong></div></a>)}</section></main>; }
