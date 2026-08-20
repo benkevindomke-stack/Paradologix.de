@@ -1,3 +1,6 @@
+import Image from "next/image";
+import "./portal-interior.css";
+
 const services = [
   { number: "01", name: "Film & Motion", copy: "Bewegte Bilder mit Haltung — von Imagefilm bis 3D-Visualisierung.", tag: "FMD" },
   { number: "02", name: "Media Spaces", copy: "Licht, Raum und digitale Ebenen für Erlebnisse, die bleiben.", tag: "NMD" },
@@ -29,7 +32,17 @@ export default function Home() {
         </div>
         <div className="portal" aria-hidden="true">
           <div className="portal-glow" /><div className="portal-frame portal-frame-a" /><div className="portal-frame portal-frame-b" />
-          <div className="portal-orb" /><div className="portal-label">ENTER<br />ANOTHER<br />DIMENSION</div>
+          <div className="portal-orb">
+            <Image
+              className="portal-interior"
+              src="/images/portal-interior-v1.png"
+              alt=""
+              fill
+              priority
+              sizes="(max-width: 760px) 45vw, 320px"
+            />
+            <span className="portal-orb-rim" />
+          </div><div className="portal-label">ENTER<br />ANOTHER<br />DIMENSION</div>
         </div>
         <div className="hero-footer"><span>Scroll to explore</span><span className="line" /><span>01 — 04</span></div>
       </section>
