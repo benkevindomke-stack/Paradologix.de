@@ -63,7 +63,7 @@ export default function Home() {
         <a href="/kontakt" className="email">Projekt anfragen <span>↗</span></a>
       </section>
 
-      <footer className="footer wrap"><a className="wordmark" href="#top">PARADOLOGIX<span>®</span></a><p>© 2026 Paradologix</p><a href="/impressum">Impressum</a><a href="#top">Nach oben ↑</a></footer>
+      <footer className="footer wrap"><a className="wordmark" href="#top">PARADOLOGIX<span>®</span></a><p>© 2026 Paradologix</p><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a><a href="#top">Nach oben ↑</a></footer>
     </main>
   );
 }

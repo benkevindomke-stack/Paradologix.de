@@ -18,7 +18,7 @@ export function ContactForm() {
       "Projektidee:",
       data.get("message"),
     ].join("\n"));
-    window.location.href = `mailto:hello@paradologix.de?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:studio@paradologix.com?subject=${subject}&body=${body}`;
     setSent(true);
   }
 
@@ -29,6 +29,6 @@ export function ContactForm() {
     <label>Worum geht es?<select name="project" defaultValue=""><option value="" disabled>Projektbereich wählen</option><option>Film & Motion Design</option><option>Media Spaces</option><option>Wall Design</option><option>Logo Design</option><option>Etwas anderes</option></select></label>
     <label className="message-field">Erzähl uns mehr<textarea name="message" required rows={5} placeholder="Was soll möglich werden? Kontext, Idee, Ort und grober Zeitrahmen helfen uns weiter." /></label>
     <button type="submit">Anfrage vorbereiten <span>↗</span></button>
-    {sent && <p className="form-note">Dein E-Mail-Programm wurde geöffnet. Falls nicht, schreib uns direkt an hello@paradologix.de.</p>}
+      {sent && <p className="form-note">Dein E-Mail-Programm wurde geöffnet. Falls nicht, schreib uns direkt an studio@paradologix.com.</p>}
   </form>;
 }
