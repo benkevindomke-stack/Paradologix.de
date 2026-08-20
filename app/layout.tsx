@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Paradologix — Creative Media Studio",
-  description: "Film, Medienräume, Wall Design und Identity für Marken, die mehr Raum einnehmen wollen.",
+  description: "Creative Media Studio aus Dresden für Film, Medienräume, Wall Design und Identity in ganz Sachsen.",
   metadataBase: new URL("https://paradologix.de"),
   openGraph: {
     title: "Paradologix — Creative Media Studio",
-    description: "Film, Medienräume, Wall Design und Identity für Marken, die mehr Raum einnehmen wollen.",
+    description: "Creative Media Studio aus Dresden für Film, Medienräume, Wall Design und Identity in ganz Sachsen.",
     locale: "de_DE",
     type: "website",
   },
@@ -26,8 +26,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               "@type": "ProfessionalService",
               name: "Paradologix",
               url: "https://paradologix.de",
-              description: "Creative Media Studio für Film, Medienräume, Wall Design und Identity.",
-              areaServed: ["Deutschland", "International"],
+              description: "Creative Media Studio aus Dresden für Film, Medienräume, Wall Design und Identity in ganz Sachsen.",
+              address: { "@type": "PostalAddress", addressLocality: "Dresden", addressCountry: "DE" },
+              areaServed: ["Dresden", "Sachsen", "Deutschland", "International"],
               sameAs: [],
             }),
           }}
